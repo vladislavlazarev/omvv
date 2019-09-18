@@ -1,0 +1,125 @@
+.section-about {
+  margin-bottom: 50px;
+  .dotted-image {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
+    max-width: 230px;
+  }
+  .powers-list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    border: 2px dashed #75bdbd;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 16px;
+    color: $text-grey;
+    padding: 0 15px;
+    font-family: "SFUID-light";
+    max-width: 300px;
+  }
+  .container {
+    h2 {
+      text-align: center;
+      color: $text-grey;
+      font-size: 22px;
+      font-weight: 600;
+      font-family: "SFUID-light";
+      span {
+        font-weight: 600;
+        font-family: "SFUID-light";
+        display: none;
+      }
+    }
+
+//Часть с главной информацией -----------------------------------------------------------------
+
+    .main-info {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .left-part {
+
+        flex-direction: column;
+        height: 100%;
+        display: flex;
+        &__container {
+          width: 80%;
+          margin: 0 auto;
+          max-width: 440px;
+        }
+        p {
+          text-align: center;
+          color: $text-grey;
+          font-size: 18px;
+        }
+      }
+
+      .right-part {
+        flex-direction: column;
+        display: flex;
+        .white-screen {
+          overflow: hidden;
+          p {
+            text-align: center;
+            color: $text-grey;
+            font-size: 16px;
+          }
+          &__container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 450px;
+          }
+        }
+        .dark-screen {
+          margin-bottom: 20px;
+          background-color: $text-grey;
+          width: 100vw;
+          overflow: hidden;
+          p {
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            font-weight: 300;
+            font-family: "SFUID-light";
+            max-width: 505px;
+            margin: 0 auto;
+          }
+          &__container {
+            width: 85%;
+            margin: 0 auto;
+            padding: 15px 0;
+          }
+        }
+      }
+    }
+
+
+
+    .btn-learn-more {
+      width: 220px;
+      height: 60px;
+      background-color: #8fc9c9;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+  }
+}

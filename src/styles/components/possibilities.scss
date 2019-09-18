@@ -1,0 +1,21 @@
+.section-main-possibilities {
+  padding-top: 50px;
+  img {
+    width: 100%;
+    margin-bottom: -4px;
+  }
+  .short-desc {
+    background-color: #647179;
+    padding: 25px 15px;
+    margin-bottom: 30px;
+    .paragraph {
+      width: 100%;
+      margin: 0 auto;
+      p {
+        color: white;
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+}

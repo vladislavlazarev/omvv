@@ -1,0 +1,40 @@
+.section-company-partners {
+    .head-container {
+      margin-bottom: 30px;
+    }
+    .short-desc {
+      background-color: #647179;
+      img {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+      }
+      padding: 50px 0 30px 0;
+      p {
+        text-align: center;
+        color: white;
+      }
+      .first-paragraph {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+    .man-with-a-tablet {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .btn-learn-more {
+      width: 220px;
+      height: 60px;
+      background-color: #8fc9c9;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      margin: 0 auto;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 18px;
+    }
+}

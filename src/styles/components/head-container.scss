@@ -1,0 +1,20 @@
+.head-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  &__dotts {
+    width: 23%;
+    max-width: 110px;
+  }
+  h2 {
+    text-align: center;
+    color: $text-grey;
+    letter-spacing: 5px;
+    font-size: 15px;
+  }
+}
+.d-head-container__dotts {
+  display: none;
+}

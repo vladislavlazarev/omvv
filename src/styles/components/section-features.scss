@@ -1,0 +1,33 @@
+.section-features {
+  .container {
+    .technology-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+
+      .technology {
+        width: 80%;
+        margin-bottom: 60px;
+        img {
+          margin: 0 auto;
+          width: 115px;
+          display: block;
+          margin-bottom: 25px;
+        }
+
+        p {
+          text-align: center;
+          color: $text-grey;
+          span {
+            font-size: 18px;
+            font-weight: 900;
+          }
+          &.paragraph {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}

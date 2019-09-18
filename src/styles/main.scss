@@ -1,0 +1,163 @@
+@import "var";
+@import "fonts";
+@import "components/header";
+@import "components/section-main";
+@import "components/section-about";
+@import "components/section-industry";
+@import "components/section-intagration";
+@import "components/section-possibilities";
+@import "components/section-portfolio";
+@import "components/section-contacts";
+@import "components/about-company";
+@import "components/head-container";
+@import "components/our-partners";
+@import "components/possibilities";
+@import "components/section-technologies";
+@import "components/section-features";
+@import "components/section-building-features";
+@import "components/section-functional";
+@import "components/media";
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/fon.jpg");
+}
+* {
+  box-sizing: border-box;
+  font-family: "SFUID-Regular";
+  font-weight: 300;
+}
+.mobile-only {
+  display: block;
+}
+.header-desktop{
+}
+.overlay {
+
+  /* Скрываем подложку  */
+  opacity: 0;
+  visibility: hidden;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 100;
+  transition: .3s all;
+}
+
+.arrowTopScroll{
+  position: fixed;
+  display: none;
+  width: 5%;
+  right: 5%;
+  bottom: 5%;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  z-index: 1327123;
+}
+.technology{
+  margin: 0 auto;
+}
+/* Стили для модальных окон */
+.modal {
+
+
+  opacity: 0;
+  visibility: hidden;
+
+
+  width: 95%;
+  max-width: 400px;
+  max-height: 1000px;
+
+
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 300;
+
+
+  box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  transition: 0.3s all;
+}
+
+
+
+.modal.active,
+.overlay.active{
+  opacity: 1;
+  visibility: visible;
+
+}
+
+
+
+.modal__cross {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
+}
+.usage-now{
+  text-decoration: underline !important;
+}
+.modal{
+
+
+  p{
+    margin: 15px 5px 5px 5px;
+    text-align: left;
+    color: #59656c;
+    span{
+      color: red;
+    }
+  }
+  div{
+    margin-left: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  input{
+    background-color:#e5e9ef;
+    border: none;
+    padding-left: 2px;
+  }
+}
+.basement{
+  margin-top: 70px;
+}
+
+.integrationStart{
+  height: 15px;
+  width:90%;
+  background-color: $grey-blue;
+  margin:0 auto;
+}
+.sendButton{
+  border: 1px solid #79b06f;
+  padding:20px 45px;
+  background-color: white;
+}
+.sendButton.-done
+{
+  border:none;
+}
+.checked{
+  width: 35%;
+  margin: 0 auto;
+}
+
+

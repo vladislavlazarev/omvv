@@ -1,0 +1,97 @@
+  .section-main {
+  padding-top: 50px;
+  position: relative;
+  .desktop-background {
+    display: none;
+  }
+  .h1-container {
+    position: absolute;
+    bottom: 10%;
+    width: 85vw;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    .h1-wrapper {
+      padding: 0 30px;
+      width: auto;
+      height: 5vh;
+      background-color: rgba(59, 67, 72, 0.8);
+      color: $grey-blue;
+      display: flex;
+      align-items: center;
+    }
+    h1 {
+      color: white;
+      font-size:15px;
+      font-family: "SFUID-Regular";
+
+      font-weight: 300;
+      margin: 0;
+      word-wrap: normal;
+    }
+    .white-square {
+      width: 9%;
+      height: 5vh;
+      background-color: rgba(255,255,255,0.8);
+    }
+  }
+
+
+  .desktop-background {
+    display: none;
+    width: 100%;
+  }
+
+  .mobile-background {
+
+    display: none;
+  }
+  .-display-block {
+    display: block;
+  }
+    .empty-place{
+        p{
+          letter-spacing: 5px;
+        }
+    }
+  .particles {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    .particle {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .-current-particle {
+      width: 10px;
+      height: 10px;
+    }
+
+  }
+}
+  .prev {
+       transform: scaleX(-1) translateY(-50%);
+    left: 5%;
+  }
+  .next {
+    right: 5%;
+    transform: translateY(-50%)
+  }
+  .carousel-switcher {
+    position: absolute;
+    width: 30px;
+    top: 11%;
+  }
+  .sl-slide img{
+    width: 100%;
+  }
+  .barFont1{
+    font-size: 18px !important;
+  }

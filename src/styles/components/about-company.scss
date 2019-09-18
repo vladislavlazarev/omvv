@@ -1,0 +1,16 @@
+.section-about-company {
+  padding-top: 80px;
+  .head-container {
+    margin-bottom: 30px;
+  }
+  .company-desc {
+    width: 90%;
+    margin: 0 auto;
+    p {
+      text-align: center;
+      color: $grey-blue;
+      margin-bottom: 80px;
+    }
+  }
+
+}
